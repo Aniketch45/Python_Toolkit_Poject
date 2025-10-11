@@ -1,0 +1,38 @@
+[
+    {
+        "patient_id": 101,
+        "name": "Amit Sharma",
+        "age": 45,
+        "gender": "Male",
+        "disease": "Diabetes",
+        "doctor_assigned": "Dr. Mehta",
+        "contact": {
+            "phone": "9876543210",
+            "email": "amit.sharma@example.com"
+        }
+    },
+    {
+        "patient_id": 102,
+        "name": "Priya Deshmukh",
+        "age": 32,
+        "gender": "Female",
+        "disease": "Asthma",
+        "doctor_assigned": "Dr. Kulkarni",
+        "contact": {
+            "phone": "9876501234",
+            "email": "priya.deshmukh@example.com"
+        }
+    },
+    {
+        "patient_id": 103,
+        "name": "Rohan Patil",
+        "age": 60,
+        "gender": "Male",
+        "disease": "Hypertension",
+        "doctor_assigned": "Dr. Joshi",
+        "contact": {
+            "phone": "9876512345",
+            "email": "rohan.patil@example.com"
+        }
+    }
+]
