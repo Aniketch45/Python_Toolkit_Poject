@@ -1,9 +1,10 @@
 from text_utils import text_analyzer                #import text_analyzer from text_utils
 from math_utils import prime_checker, factorial_calculator, fibonacci, gcd_lcm
 from file_utils import read_file, write_file, copy_file
+from list_utils import list_op, dictionary_op
 
 def main_menu():
-    while 2<3:
+    while True:
         print("\n -- Python Utility Toolkit -- \n")
         print("1. Text Analyzer")
         print("2. Math Tool")
@@ -22,8 +23,8 @@ def main_menu():
             file_menu()
         # elif choice == '4':
         # #operation to be perform
-        # elif choice == '5':
-        # #operation to be perform
+        elif choice == '5':
+            list_dict_menu()
         elif choice == '0':
             print("You are Exiting... Thank you..!")
             break
@@ -63,7 +64,18 @@ def file_menu():
     else:
         print("Invalid choice for file operations.")
 
+def list_dict_menu():
+    print("\n List & Dictionary Manager")
+    print("1. List Operations ")
+    print("2. Dictionary Operation5 ")
+    choice = input("Choose you option from above :- ")
+    if choice == '1':
+        list_op()
+    elif choice == '2':
+        dictionary_op()
+    else:
+        print("Invalid choice for list & dictionary operation")
 
 #controller to control the project or other files
 if __name__ == "__main__":
-    main_menu()
+    main_menu() 
